@@ -1,0 +1,21 @@
+{
+    "name": "my name",
+    "description": "my description",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+    
+    },
+    "background": {
+        "scripts": ["src/background/background.js"]
+    },
+    "options_page": "src/options/options.html",
+    "browser_action": {
+        "default_popup": "src/popup/popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://www.google.com/*",
+        "storage"
+    ] 
+}

@@ -1,0 +1,31 @@
+{
+  "name": "chrome-extension-template-js",
+  "version": "1.0.0",
+  "description": "chrome extension template",
+  "main": "foreground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel *.html",
+    "build": "parcel build *.html",
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skidragon/chrome-extension-template-js.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skidragon/chrome-extension-template-js/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "homepage": "https://github.com/Skidragon/chrome-extension-template-js#readme"
+}
